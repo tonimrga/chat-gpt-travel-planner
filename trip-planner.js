@@ -12,7 +12,6 @@ export const generateQuery = (destination, duration, numOfTravelers, modeOfTrans
 };
 
 export async function createTripPlan(query) {
-    console.log(query)
     try {
         const completion = await openai.chat.completions.create({
             model: "gpt-4o-mini",
