@@ -1,0 +1,1 @@
+Simple terminal app for generating travel plans.
