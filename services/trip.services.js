@@ -1,11 +1,11 @@
 import colors from 'colors';
-import openai from './config/open-ai.js';
+import openai from '../config/open-ai.js';
 
-export const generateQuery = (destination, duration, numOfTravelers, modeOfTransport) => {
+export const generateQuery = (destination, duration, numOfTravellers, modeOfTransport) => {
     return `I'd like your help to create a trip itinerary. 
     Destination is ${destination}. 
     Duration is ${duration} days. 
-    Number of travelers is ${numOfTravelers}. 
+    Number of travellers is ${numOfTravellers}. 
     Mode of transportation is ${modeOfTransport}. 
     Can you create a day-by-day itinerary that includes must-see attractions, 
     recommended restaurants, and any side trips a person could take there?`
